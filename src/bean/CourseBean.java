@@ -87,4 +87,6 @@ public class CourseBean {
     public void addSessions(SessionCourse session){
         this.sessions.add(session);
     }
+
+    //provaprovaprovaprova
 }
