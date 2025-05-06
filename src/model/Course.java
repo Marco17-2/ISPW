@@ -12,16 +12,18 @@ public class Course {
     private String courseName;
     private Trainer trainer;
     private int slots;
+    private int remainingSlots;
     private int duration;
     private String level;
     private List<SessionCourse> sessions;
 
-    public Course(String courseName, Trainer trainer, int slots, String duration, String level) {
+    public Course(String courseName, Trainer trainer, int slots, int remainingSlots, String duration, String level) {
 
         this.courseName = courseName;
         this.trainer = trainer;
         this.slots = slots;
         this.duration = duration;
+        this.remainingSlots = remainingSlots;
         this.level = level;
         sessions = new ArrayList<>();
 
@@ -85,5 +87,13 @@ public class Course {
 
     public void addSession(SessionCourse session) {
         sessions.add(session);
+    }
+
+    public int getRemainingSlots() {
+        return remainingSlots;
+    }
+
+    public void setRemainingSlots(int remainingSlots) {
+        this.remainingSlots = remainingSlots;
     }
 }
