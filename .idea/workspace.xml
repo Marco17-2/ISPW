@@ -5,29 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70809666-7e33-4fa1-8bbe-0ba0f95812a0" name="Changes" comment="prova commit">
-      <changelist_data name="Marco17-2" email="desantismarco17@gmail.com" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/CredentialsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/CustomerBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/ExerciseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/LoggedUserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/RequestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/ScheduleBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/SubscriptionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/TrainerBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/engineering/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/LoggedUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/controller/ExerciseDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/controller/ScheduleDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/controller/UserRegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/ExAndScheduleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/LoginAndRegistrationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/RequestDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/RetrieveDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/UpdateDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/demo/ExAndScheduleDAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/demo/LoginAndRegistrationDAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/demo/RequestDAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/demo/RetrieveDAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/demo/UpdateDAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/full/sql/ExAndScheduleDAOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/full/sql/LoginAndRegistrationDAOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/full/sql/RequestDAOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/full/sql/RetrieveDAOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/dao/full/sql/UpdateDAOSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/patterns/factory/BeanAndModelMapperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/patterns/factory/FactoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/FXMLPathConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/BeanAndModelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/CredentialsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/ExerciseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/MapperRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/RequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/ScheduleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/others/mappers/TrainerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/commonPanel.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/homepage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/img/Yellow and Black Modern Gym Center Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/img/homepageImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/loginAndRegister.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gym.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/CourseBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/bean/CourseBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/CustomerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/bean/CustomerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/RequestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/bean/RequestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/ReservationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/bean/ReservationBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/TrainerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/bean/TrainerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/CredentialsBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/CustomerBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/ExerciseBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/LoggedUserBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/RequestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/ScheduleBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/SubscriptionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/beans/TrainerBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/engineering/enums/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/utilities/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Credentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/LoggedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Subscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/bodybuild/model/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SessionCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/SessionCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ispw/model/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/prova.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +111,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucaa/IdeaProjects/ISPW/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/marco/OneDrive/Desktop/Desk/ispwProgetto/Gym/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lucaa/IdeaProjects/ISPW/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/marco/OneDrive/Desktop/Desk/ispwProgetto/Gym/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src" />
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\java" />
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\resources" />
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\java\utilities\others\mappers" />
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\java\patterns\factory" />
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\java\dao\demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucaa\IdeaProjects\ISPW\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ispw" />
+      <recent name="dao.full" />
+      <recent name="" />
+      <recent name="com.ispw" />
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities.others" />
+      <recent name="utilities.enums" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,8 +174,25 @@
       <workItem from="1746469801538" duration="413000" />
       <workItem from="1746701612502" duration="425000" />
       <workItem from="1746719781722" duration="9000" />
-      <workItem from="1746868280290" duration="348000" />
+      <workItem from="1746868280290" duration="5520000" />
     </task>
+    <task id="LOCAL-00001" summary="prova commit">
+      <option name="closed" value="true" />
+      <created>1746868645721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746868645721</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prova commit">
+      <option name="closed" value="true" />
+      <created>1746868835875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746868835875</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,16 +201,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prova commit" />
     <option name="LAST_COMMIT_MESSAGE" value="prova commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

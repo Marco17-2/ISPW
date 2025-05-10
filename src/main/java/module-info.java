@@ -3,6 +3,6 @@ module com.example.bodybuild {
     requires javafx.fxml;
 
 
-    opens com.example.bodybuild to javafx.fxml;
-    exports com.example.bodybuild;
+    opens ispw to javafx.fxml;
+    exports ispw;
 }
